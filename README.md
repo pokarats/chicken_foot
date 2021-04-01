@@ -7,7 +7,8 @@ It starts with a deck of “cards” in our case. The cards have different numbe
 ## Instructions
 
 1. clone the repository
-2. 
+2. Run `make` inside the project directory where the makefile is to compile the executable
+3. Run the program `./proj1`
 
 ## Program Design Analysis: Design Overview & Object Oriented Principles
 
