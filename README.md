@@ -1,5 +1,5 @@
 # Chicken Foot
-This project was part of CS261 Programming Assignments. It is a text based simulation of the game “chicken foot”.  
+This project was part of 2017 CS261 Programming Assignments. It is a text based simulation of the game “chicken foot”.  
 
 ## How the Game Chicken Foot is Normally Played
 It starts with a deck of “cards” in our case. The cards have different numbers on the two ends (simulating a domino). Each card is called a “bone”. Each player is dealt 7 bones and the bones remaining are left in the “chicken yard”. The player that has the largest double (where both numbers on a card are the same) place this bone in the field first. The players then rotate placing a bone that matches one of the numbers with a free side on the field. Any time a double is played, players attach up to 3 bones to the double (making for a “chicken foot”). In fact, when a double is played the ONLY bones that can be played are those that match the double otherwise the player has to draw once. A chicken foot must be filled with 3 bones before the game may proceed. The initial double however is played to all four sides. The player who uses all of their bones wins. There is a point system for the other players based on the bones left in each player’s hands. The goal is to get the fewest points possible.
